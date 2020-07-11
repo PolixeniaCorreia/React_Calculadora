@@ -5,11 +5,11 @@ import Calculator from './main/Calculator';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
-  <div> 
+  <div>
     <h1>Calculadora</h1>
     <Calculator />
   </div>
-  
-  ,document.getElementById('root')
+
+  , document.getElementById('root')
 );
 serviceWorker.unregister();
